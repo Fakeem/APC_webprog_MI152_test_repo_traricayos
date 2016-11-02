@@ -1,13 +1,8 @@
-<html>   
+<html>
+
+     <title> ABOUT </title>
      
-      <title> First Web Page </title>
-      <body style="background-color: slategray;"> 
-      <center>
-      <h1><em>Welcome to my first Web Page.</em></h1> 
-      <img src = "PICS/c.png" alt = "CLG" width = "100"> 
-      </center>
-       
-      <style>
+	 <style>
        table, th, td {
        border: 1px solid black;
        border-collapse: collapse;
@@ -16,8 +11,28 @@
        th, td {
        padding: 25px;
        text-align: left;
-}    </style>  
-     
+}
+	  li a{font-size:30px;padding:5px;text-decoration:none;float:left;color:black;}
+	  ul {border:2px solid black;list-style-type:none;overflow:hidden;background-color:white;color:black;}
+	  li a:hover {background-color:black;color:white;}
+
+	  .border {border:2px solid black;}
+     </style>  
+    
+	   <body style="background-color: slategray;"> 
+	   <ul>
+	   <li><a href="mypage.html"><em>ABOUT</em></li></a>
+	   <li> <a href="mypage2.html"><em>TRIVIA</em></li></a>
+	   </ul>
+
+	   <br>
+	  
+	  <center>
+      <h1><em>Welcome to my first Web Page.</em></h1> 
+      <img src = "PICS/c.png" alt = "CLG" width = "100"> 
+      </center>
+	   
+	   
     <table style="width:100%">
     <tr>
     <th bgcolor="LightSeaGreen" th style="font-size:30px;"><em>Name:</em></th>
@@ -56,29 +71,6 @@
  
 </table>
 
-<h1>What is my favorite Food?</h1>
-	<p id="demo">Clue: Sweet</p>
-    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Leche Flan'">Show Answer!</button>
-	
-	<h1>What is my favorite Anime?</h1>
-	<p id="demo1">Clue: Kamehameha</p>
-    <button type="button" onclick="document.getElementById('demo1').innerHTML = 'Dragon Ball Z'">Show Answer!</button>
-	
-	<h1>Who is my favorite Champion in League?</h1>
-	<p id="demo2">Clue: Explorer</p>
-    <button type="button" onclick="document.getElementById('demo2').innerHTML = 'Ezreal'">Show Answer!</button>
-	
-	<h1>Who is my favorite Hero in DOTA?</h1>
-	<p id="demo3">Clue: Rock</p>
-    <button type="button" onclick="document.getElementById('demo3').innerHTML = 'Earth Spirit'">Show Answer!</button>
-	
-	
-	<h1>Who is my favorite Pro Player in League?</h1>
-	<p id="demo4">Clue: Playmaker</p>
-    <button type="button" onclick="document.getElementById('demo4').innerHTML = 'Faker'">Show Answer!</button>
-    
-    
-	
- 
+
 </body>
 </html>
